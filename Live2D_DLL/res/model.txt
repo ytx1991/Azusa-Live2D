@@ -1,1 +1,0 @@
-res\live2d\haru\haru_01.model.json;res\live2d\haru\haru_02.model.json
