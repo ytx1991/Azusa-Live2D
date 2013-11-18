@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\live2d">
+      <UniqueIdentifier>{083516cc-9a7a-427a-8007-8dfe8b7c3167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{753fd72e-9f10-487f-9a77-a1b356fe4033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\model">
+      <UniqueIdentifier>{741868e4-0ef5-4e36-a7c3-d85f54621477}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\LAppDefine.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LAppLive2DManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LAppModel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LAppRenderer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\framework\L2DBaseModel.h">
+      <Filter>src\live2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\framework\L2DExpressionMotion.h">
+      <Filter>src\live2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\framework\L2DEyeBlink.h">
+      <Filter>src\live2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\framework\L2DMatrix44.h">
+      <Filter>src\live2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\framework\L2DModelMatrix.h">
+      <Filter>src\live2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\framework\L2DMotionManager.h">
+      <Filter>src\live2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\framework\L2DPhysics.h">
+      <Filter>src\live2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\framework\L2DPose.h">
+      <Filter>src\live2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\framework\L2DTargetPoint.h">
+      <Filter>src\live2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\framework\L2DViewMatrix.h">
+      <Filter>src\live2d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FileManager.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyLive2DAllocator.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ModelSetting.h">
+      <Filter>src\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\uImageDC.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ModelSettingJson.h">
+      <Filter>src\model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\LAppLive2DManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LAppModel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LAppRenderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\framework\L2DBaseModel.cpp">
+      <Filter>src\live2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\framework\L2DExpressionMotion.cpp">
+      <Filter>src\live2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\framework\L2DEyeBlink.cpp">
+      <Filter>src\live2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\framework\L2DMatrix44.cpp">
+      <Filter>src\live2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\framework\L2DModelMatrix.cpp">
+      <Filter>src\live2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\framework\L2DMotionManager.cpp">
+      <Filter>src\live2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\framework\L2DPhysics.cpp">
+      <Filter>src\live2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\framework\L2DPose.cpp">
+      <Filter>src\live2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\framework\L2DTargetPoint.cpp">
+      <Filter>src\live2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\framework\L2DViewMatrix.cpp">
+      <Filter>src\live2d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileManager.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\uImageDC.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
